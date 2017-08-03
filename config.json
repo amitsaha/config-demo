@@ -1,0 +1,12 @@
+{
+"environment": "dev",
+"server":
+  {
+    "handler_timeout": 30
+  },
+"rpcServices":
+  {
+    "project": {"host": "localhost", "timeout": 1000},
+    "user":  {"host": "localhost", "timeout": 1000}
+  }
+}
